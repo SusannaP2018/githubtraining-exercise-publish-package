@@ -36,7 +36,6 @@ jobs:
         with:
           # relative path to the place where source code with Dockerfile is located
           context: ./sample-packages/docker/
-          file: Dockerfile
           # Note: tags has to be all lower-case
           tags: |
             ghcr.io/susannap2018/simple:latest
